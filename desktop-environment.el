@@ -297,9 +297,7 @@ the screen."
     (,(kbd "<XF86AudioMicMute>") . ,(function desktop-environment-toggle-microphone-mute))
     ;; Volume
     (,(kbd "S-<print>") . ,(function desktop-environment-screenshot-part))
-    (,(kbd "<print>") . ,(function desktop-environment-screenshot))
-    ;; Screen locking
-    (,(kbd "s-l") . ,(function desktop-environment-lock-screen)))
+    (,(kbd "<print>") . ,(function desktop-environment-screenshot)))
   "List of (KEY . FUNCTION) in `desktop-environment-mode-map'.")
 
 (defvar desktop-environment-mode-map
